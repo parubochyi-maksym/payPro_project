@@ -1,0 +1,18 @@
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 147px;
+  margin-left: 147px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+}

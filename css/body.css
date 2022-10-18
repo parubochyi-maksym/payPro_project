@@ -1,0 +1,35 @@
+.body {
+  display: flex;
+  flex-direction: row;
+  margin-right: 147px;
+  margin-left: 147px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .body {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .info_text {
+    display: none;
+  }
+
+  .info_pictures {
+    display: none;
+  }
+
+  .card_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card_detail {
+    width: 70%;
+  }
+}

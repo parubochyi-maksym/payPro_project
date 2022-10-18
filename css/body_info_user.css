@@ -1,0 +1,117 @@
+.info_user {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 20px;
+  box-shadow: 0px 4px 10px 3px #e5e9ed;
+  padding: 20px 20px 0 20px;
+  border-radius: 5px;
+}
+
+.info_user_title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.info_form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 40px;
+}
+
+.user_country {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.user_name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button_container {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.button_card_visa {
+  width: 50%;
+  margin-right: 5px;
+  background-color: #e9f0fc;
+  border: none;
+  border-radius: 5px;
+  color: blue;
+}
+
+.button_card_paypal {
+  width: 50%;
+  margin-left: 5px;
+  border: none;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  color: dodgerblue;
+}
+
+.card_details {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9f0fc;
+}
+
+.card_detail {
+  width: 130px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.button {
+  width: 100%;
+  height: 50px;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #f7cc51;
+}
+
+.info {
+  margin-left: 20px;
+}
+
+.card_number_container {
+  display: flex;
+  background-color: #e9f0fc;
+  border-radius: 5px;
+}
+
+.card_number {
+  width: 100%;
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .info_user {
+    width: 95%;
+    margin: 10px;
+    padding-bottom: 20px;
+  }
+
+  .user_name {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    height: 30px;
+  }
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PayPro</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_container">
+        <div class="header_left">
+          <div class="header_left_logo">
+            <img
+              class="header_logo"
+              src="images/header/header_logo.png"
+              alt="Logo FixPix"
+            />
+          </div>
+        </div>
+        <div class="header_right">
+          <div class="header_right_language">
+            <img
+              class="header_language"
+              src="images/header/header_language.png"
+              alt="header_language"
+            />
+          </div>
+          <div class="header_right_currency">
+            <img
+              class="header_currency"
+              src="images/header/header_currency.png"
+              alt="header_currency"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="body">
+      <div class="info_user">
+        <h3 class="info_user_title">Billing information</h3>
+        <div class="info_billing">
+          <form class="info_form">
+            <div class="user_name">
+              <input
+                class="first_name"
+                type="text"
+                placeholder="First name *"
+                required
+              />
+              <input
+                class="last_name"
+                type="text"
+                placeholder="Last name *"
+                required
+              />
+            </div>
+            <input
+              class="user_email"
+              type="email"
+              placeholder="E-mail *"
+              required
+            />
+            <select class="user_country">
+              <option value="ukraine" selected>Ukraine</option>
+              <option value="poland">Poland</option>
+            </select>
+            <input class="user_phone" type="text" placeholder="Phone number" />
+            <div class="button_container">
+              <button class="button_card_visa" type="button">
+                <b><i>VISA</i></b>
+              </button>
+              <button class="button_card_paypal" type="button">
+                <b><i>PayPal</i></b>
+              </button>
+            </div>
+            <div class="card_number_container">
+              <input class="card_number" placeholder="Card number *" required />
+            </div>
+            <div class="card_details">
+              <input
+                class="card_detail"
+                type="number"
+                placeholder="MM"
+                required
+              />
+              <input
+                class="card_detail"
+                type="number"
+                placeholder="YY"
+                required
+              />
+              <input
+                class="card_detail"
+                placeholder="Security code *"
+                required
+              />
+            </div>
+            <div class="info_button">
+              <button type="submit" class="button"><b>SUBMIT ORDER</b></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="info">
+        <div class="info_product">
+          <div class="info_header">
+            <div class="info_header_title">PRODUCT</div>
+            <div class="info_header_title">PRICE</div>
+          </div>
+          <div class="product_desc">
+            <div class="product_img_container">
+              <img
+                src="./images/body/product_img.png"
+                class="product_img"
+                alt="product image"
+              />
+            </div>
+            <div class="product_titles">
+              <div class="product_title"><b>Test Product</b></div>
+              <div class="product_title">Product Desription</div>
+              <div class="product_title auto-renewal">Auto-renewal</div>
+            </div>
+            <div class="product_price">
+              <p><b>100.00 USD</b></p>
+            </div>
+          </div>
+          <div class="product_vat">
+            <p>VAT (20.00%): <b>20.00 USD</b></p>
+          </div>
+          <div class="product_total_price">
+            <p class="total_price"><b>TOTAL: 120.00 USD</b></p>
+          </div>
+        </div>
+        <div class="info_text">
+          <p>
+            Do not hesitate to contact our CUSTOMER CARE CENTER for more
+            information about payment and delivery. <br />Please state the order
+            ID from the confirmation email as a reference so that we can assist
+            you efficiently.
+          </p>
+          <p>24/7 English phone support for online payment related issues:</p>
+          <div class="contacts">
+            <div class="contacts_img">
+              <img
+                class="contacts_img"
+                src="./images/body/contact_phone.png"
+                alt="contacts"
+              />
+            </div>
+            <div class="contacts_phone">
+              <p>
+                <b>+ 1-888-317-4868</b> (Toll free) <br /><b
+                  >+ 1-647-977-7769</b
+                >
+                (International)
+              </p>
+            </div>
+          </div>
+          <p>
+            By submitting your Order, you acknowledge that you are purchasing
+            from PayPro Global (PayPro Global, Inc., PayPro Europe Limited or
+            PayPro U.S. Inc.), an authorized e-Commerce reseller.
+          </p>
+          <p>
+            Once the transaction is complete, your contact information will be
+            shared with the product vendor for ongoing support purposes.
+          </p>
+        </div>
+        <div class="info_pictures">
+          <img
+            src="./images/body/pci_dss.png"
+            class="info_picture"
+            alt="PCI DSS"
+          />
+          <img
+            src="./images/body/trusted_site.png"
+            class="info_picture"
+            alt="Trusted site"
+          />
+          <img
+            src="./images/body/norton_secured.png"
+            class="info_picture"
+            alt="Norton secured"
+          />
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer_container">
+        <p>Privacy Policy | Terms and Conditions | Refund Policy</p>
+        <p>© PayPro Global, Inc. 2021</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
